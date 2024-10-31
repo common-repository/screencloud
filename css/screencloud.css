@@ -1,0 +1,59 @@
+/* 
+  SETTINGS UI
+*/
+#screencloud-connections fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#screencloud-connections fieldset label {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+#screencloud-connections fieldset label span {
+  flex-basis: 10%;
+  min-width: 100px;
+}
+
+#screencloud-connections fieldset input[type="text"] {
+  flex-grow: 1;
+  max-width: 600px;
+}
+
+/* 
+  SHARING UI
+*/
+#screencloud-modal {
+  display: none;
+}
+
+#screencloud-modal #config-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#screencloud-modal #config-selection div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 0.5rem;
+}
+
+#screencloud-modal select {
+  width: 70%;
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#screencloud-modal #loading-indicator {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
